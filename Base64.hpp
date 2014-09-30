@@ -22,7 +22,7 @@ class Base64 {
 	 */
 public:
 	static char* encode ( const unsigned char* chaine, const int tailleChaine );
-	static char* encode ( std::string nomFichier );
+	static char* encodeFromFile ( std::string nomFichier );
 
 };
 
