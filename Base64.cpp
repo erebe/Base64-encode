@@ -86,7 +86,7 @@ char *Base64::encode ( const unsigned char *normal, const int taille ) {
 }
 
 
-char* Base64::encode( string nomFichier ) {
+char* Base64::encodeFromFile( string nomFichier ) {
 
 	char *chaineEncode;
 	char *buffer;
